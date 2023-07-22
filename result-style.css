@@ -99,12 +99,12 @@ body{
     align-items: center;
     justify-content: center;
 
-    width: 7rem;
+    width: 10rem;
     aspect-ratio: 1/1;
 
     margin: 0.8rem;
 
-    border-radius: 4rem;
+    border-radius: 5rem;
 }
 
 .final-score{
