@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="result-style.css">
+  <link rel="stylesheet" href="summary-style.css">
+
+</head>
+<body>
+    <main>
+      <div class="container">
+        <section class="result">
+          <h2>Your Result</h2>
+          <div class="numeric-result">
+            <p class="final-score">76</p>
+            <p class="max-score">of 100</p>
+          </div>
+            <p class="msg">Great</p>
+            <p class="percentile">You scored higher than 65% of the people who have taken these tests.</p>
+        </section>
+        <section class="summary">
+          <h2>Summary</h2>
+          <ul class="score-list">
+            <li class="reaction">
+              <div class="attribute-cell">
+                <img src="assets/images/icon-reaction.svg" alt="">
+                <h3 class="attribute">Reaction</h3>
+              </div>
+              <p class="reaction-score"><span class="score">80</span> / 100</p>
+            </li>
+            <li class="memory">
+              <div class="attribute-cell">
+                <img src="assets/images/icon-memory.svg" alt="">
+                <h3 class="attribute">Memory</h3>
+              </div>
+              <p class="memory-score"><span class="score">92</span> / 100</p>
+            </li>
+            <li class="verbal">
+              <div class="attribute-cell">
+                <img src="assets/images/icon-verbal.svg" alt="">
+                <h3 class="attribute">Verbal</h3>
+              </div>
+              <p class="verbal-score"><span class="score">61</span> / 100</p>
+            </li>
+            <li class="visual">
+              <div class="attribute-cell">
+                <img src="assets/images/icon-visual.svg" alt="">
+                <h3 class="attribute">Visual</h3>
+              </div>
+              <p class="visual-score"><span class="score">72</span> / 100</p>
+            </li>
+          </ul>
+          <button class="btn">Continue</button>
+        </section>
+      </div>
+    </main>
+</body>
+</html>
